@@ -1,15 +1,19 @@
 class Car {
-  constructor(license, driver, passenger) {
+
+  constructor(license, driver) {
+
     this.id
     this.license = license;
     this.driver = driver
-    this.passenger = passenger
+  }
+  getPassenger() {
+    return passanger
+  }
+  setPasasenger(passanger) {
+    this.passanger = passanger
   }
 
   printDataCar() {
-    console.log(this.driver);
-    console.log(this.driver.name);
-    console.log(this.driver.document);
-    console.log(`El numero de pasajeros es ${this.passenger}`);
+    return this.name;
   }
 }
