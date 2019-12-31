@@ -1,0 +1,5 @@
+<? 
+class Payment(){
+    public $id;
+}
+?>
