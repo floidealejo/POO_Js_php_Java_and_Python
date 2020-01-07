@@ -1,7 +1,3 @@
-/**
- * Payment
- */
-public class Payment {
-
+class Payment {
     Integer id;
 }
